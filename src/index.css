@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.main {
+  margin: 10px;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background: black;
+  padding: 50px;
+
+}
+
+.container {
+  display: flex;
+  width: 380px;
+  height: 380px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00,
+      #48ff00, #00ffd4, #002bff, #ff00c8, #ff0000);
+  padding: 5px;
+}
+
+.stopwatch {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  padding: 40px;
+}
+
+.display {
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+  padding: 120px;
+}
+
+.controls {
+  display: flex;
+  padding: 70px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 25px;
+  min-width: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: green;
+}
+
+.start-button:hover {
+  background-color: rgb(43, 177, 43);
+}
+
+.stop-button {
+  background-color: rgb(239, 34, 34);
+}
+
+.stop-button:hover {
+  background-color: rgb(222, 72, 72);
+}
+
+.reset-button {
+  background-color: rgb(44, 44, 159);
+}
+
+.reset-button:hover {
+  background-color: rgb(74, 74, 211);
+}
